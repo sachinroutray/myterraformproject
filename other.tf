@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "b" {
   bucket = "mrsachin12345"
-  acl    = "public"
+  acl    = "private"
 
 
   versioning {
